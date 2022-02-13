@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ShellNet/static/css/main.1978c764.css",
+    "main.js": "/ShellNet/static/js/main.c98e254e.js",
+    "static/js/787.170b745c.chunk.js": "/ShellNet/static/js/787.170b745c.chunk.js",
+    "static/media/search.png": "/ShellNet/static/media/search.c6544d3156a8bde3d076.png",
+    "index.html": "/ShellNet/index.html",
+    "main.1978c764.css.map": "/ShellNet/static/css/main.1978c764.css.map",
+    "main.c98e254e.js.map": "/ShellNet/static/js/main.c98e254e.js.map",
+    "787.170b745c.chunk.js.map": "/ShellNet/static/js/787.170b745c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1978c764.css",
+    "static/js/main.c98e254e.js"
+  ]
+}
