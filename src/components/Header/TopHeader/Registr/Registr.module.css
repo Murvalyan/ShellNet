@@ -1,0 +1,17 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Style wrapperReg__reg*/
+
+.reg {
+    margin: 0 10px;
+    color: #FFFFFF;
+    transition: 0.2s ease;
+}
+
+.reg:hover {
+    color: #a8a8a8;
+}

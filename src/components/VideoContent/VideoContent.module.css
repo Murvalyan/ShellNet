@@ -1,0 +1,10 @@
+.main {
+    flex: 1 0 auto;
+    padding: 25px 0;
+    background-color: #e9e7e7;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}

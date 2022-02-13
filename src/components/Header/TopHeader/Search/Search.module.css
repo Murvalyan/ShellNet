@@ -1,0 +1,40 @@
+/*Style search*/
+
+.search {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Style search__input*/
+
+.input {
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    height: 35px;
+    border: 1px solid #fefefe;
+    transition: 0.1s ease;
+    padding: 0 10px;
+}
+
+.input:focus {
+    height: 35px;
+    outline: 1px solid #0adaff;
+}
+
+/*Style search__button*/
+
+.btn {
+    max-width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    height: 35px;
+    border: 0;
+}
+
+/*Style search__buttonImg*/
+
+.btn > img {
+    padding: 5px;
+}

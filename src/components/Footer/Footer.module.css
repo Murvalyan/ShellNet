@@ -1,0 +1,18 @@
+/*Style footer*/
+
+.footer {
+    min-height: 50px;
+    max-height: 100px;
+    flex: 0 0 auto;
+    background-color: #000;
+
+}
+.wrapper {
+    justify-content: flex-end;
+    align-items: center;
+}
+.copy {
+    margin: 0;
+    text-align: center;
+    color: #FFFFFF;
+}

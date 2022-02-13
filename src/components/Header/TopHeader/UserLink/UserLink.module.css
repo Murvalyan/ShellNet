@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+/*Style wrapperUser__userImg*/
+
+.img {
+
+    max-width: 50px;
+    max-height: 50px;
+    cursor: pointer;
+}
+
+.img path {
+    stroke: #FFFFFF;
+}
+
+.img:hover path {
+    stroke: #a8a8a8;
+}
