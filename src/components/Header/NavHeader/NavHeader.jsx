@@ -1,6 +1,8 @@
 import s from './NavHeader.module.css';
 import { Col } from 'react-bootstrap';
-const NavHeader = () => {
+import { NavLink } from 'react-router-dom';
+const NavHeader = (props) => {
+
     return (
         <nav className={s.nav}>
             <Col>
@@ -12,7 +14,12 @@ const NavHeader = () => {
                     </Col>
                     <Col xs={10} sm={6}>
                         <li className={s.item}>
-                            <a href="page/book.html" className="header__navLink nav__link">Обучающий материал в виде статей</a>
+                            <NavLink to="/">
+                                Обучающий материал в виде видео
+                            </NavLink>
+                            <NavLink to="/article">
+                                Обучающий материал в виде статей
+                            </NavLink>
                         </li>
                     </Col>
                     <Col xs={12} sm={4}>

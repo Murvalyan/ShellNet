@@ -4,7 +4,7 @@ import TopHeader from './TopHeader/TopHeader';
 import NavHeader from './NavHeader/NavHeader';
 
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header className={s.header}>
       <Container fluid>
@@ -12,7 +12,7 @@ const Header = () => {
           <TopHeader />
         </Row>
         <Row>
-          <NavHeader />
+          <NavHeader text={props.text} />
         </Row>
       </Container>
     </header>
