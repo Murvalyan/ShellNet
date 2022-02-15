@@ -12,7 +12,7 @@ const Header = (props) => {
           <TopHeader />
         </Row>
         <Row>
-          <NavHeader text={props.text} />
+          <NavHeader />
         </Row>
       </Container>
     </header>

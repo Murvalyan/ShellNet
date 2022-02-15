@@ -12,8 +12,9 @@ function App() {
       <div className="wrapper">
         <Header />
         <Routes>
-          <Route path="/" element={<VideoContent />} />
-          <Route path="/article/*" element={<ArticleContent />} />
+          <Route path="/" index element={<VideoContent />} />
+          <Route path="*" element={<VideoContent />} />
+          <Route path="article/*" element={<ArticleContent />} />
         </Routes>
         <Footer />
       </div>
