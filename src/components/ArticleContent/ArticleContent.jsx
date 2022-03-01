@@ -3,23 +3,19 @@ import s from '../VideoContent/VideoContent.module.css';
 import Article from './Article/Article';
 
 const ArticleContent = () => {
+
+    const listArticle = [];
+
+    for (let k = 0; k < 12; k++) {
+        listArticle.push(<Article />)
+    }
+
     return (
         <main className={s.main}>
             <Container fluid={'lg'}>
                 <h1 className={s.title}>Все статьи</h1>
                 <Row>
-                    <Article />
-                    <Article />
-                    <Article />
-                    <Article />
-                    <Article />
-                    <Article />
-                    <Article />
-                    <Article />
-                    <Article />
-                    <Article />
-                    <Article />
-                    <Article />
+                    {listArticle}
                 </Row>
             </Container>
         </main>

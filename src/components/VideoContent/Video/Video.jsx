@@ -1,12 +1,12 @@
 import s from './Video.module.css';
 import LogoUser from '../../../assets/img/icon/webdev.jpg';
 import { Col } from 'react-bootstrap';
-
+import v from '../../../assets/video/v.mp4'
 const Video = () => {
     return (
         <Col sm={6} md={4} lg={3}>
             <div className={s.wrapperVideo}>
-                <video src="video/video1.mp4" className={s.video} preload="metadata" controls></video>
+                <video src={v} className={s.video} preload="metadata" controls></video>
                 <div className={s.wrapper}>
                     <Col xs={3}>
                         <div>

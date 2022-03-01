@@ -3,6 +3,7 @@ import { Col } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 const NavHeader = (props) => {
 
+
     return (
         <nav className={s.nav}>
             <Col>
@@ -14,7 +15,7 @@ const NavHeader = (props) => {
                     </Col>
                     <Col xs={10} sm={6}>
                         <li className={s.item}>
-                            <NavLink to="/">
+                            <NavLink to="/video">
                                 Обучающий материал в виде видео
                             </NavLink>
                             <NavLink to="/article">
