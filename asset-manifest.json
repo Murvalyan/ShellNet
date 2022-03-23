@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ShellNet/static/css/main.0315e5f1.css",
-    "main.js": "/ShellNet/static/js/main.dc7f8830.js",
+    "main.css": "/ShellNet/static/css/main.9700393c.css",
+    "main.js": "/ShellNet/static/js/main.f58f66ba.js",
     "static/js/787.170b745c.chunk.js": "/ShellNet/static/js/787.170b745c.chunk.js",
     "static/media/v.mp4": "/ShellNet/static/media/v.3cf1505e7e87024a4ce1.mp4",
     "static/media/js.jpeg": "/ShellNet/static/media/js.ae05cd98b3ab9e3ff6e9.jpeg",
     "static/media/search.png": "/ShellNet/static/media/search.c6544d3156a8bde3d076.png",
     "index.html": "/ShellNet/index.html",
-    "main.0315e5f1.css.map": "/ShellNet/static/css/main.0315e5f1.css.map",
-    "main.dc7f8830.js.map": "/ShellNet/static/js/main.dc7f8830.js.map",
+    "main.9700393c.css.map": "/ShellNet/static/css/main.9700393c.css.map",
+    "main.f58f66ba.js.map": "/ShellNet/static/js/main.f58f66ba.js.map",
     "787.170b745c.chunk.js.map": "/ShellNet/static/js/787.170b745c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0315e5f1.css",
-    "static/js/main.dc7f8830.js"
+    "static/css/main.9700393c.css",
+    "static/js/main.f58f66ba.js"
   ]
 }
