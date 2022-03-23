@@ -2,11 +2,15 @@ import s from './Video.module.css';
 import LogoUser from '../../../assets/img/icon/webdev.jpg';
 import { Col } from 'react-bootstrap';
 import v from '../../../assets/video/v.mp4'
+import { Link } from 'react-router-dom';
 const Video = () => {
+
     return (
         <Col sm={6} md={4} lg={3}>
             <div className={s.wrapperVideo}>
-                <video src={v} className={s.video} preload="metadata" controls></video>
+                <Link to="/videoPage/">
+                    <video src={v} className={s.video}></video>
+                </Link>
                 <div className={s.wrapper}>
                     <Col xs={3}>
                         <div>

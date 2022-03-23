@@ -1,9 +1,10 @@
 import s from './Registr.module.css';
-
+import { Link } from 'react-router-dom';
 const Registr = () => {
     return (
+
         <div className={s.wrapper}>
-            <a href="#" className={s.reg}>Вход/Регистрация</a>
+            <Link to="/forms" className={s.reg}>Вход/Регистрация</Link>
         </div>
     );
 }

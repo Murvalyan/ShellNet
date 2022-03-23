@@ -1,8 +1,10 @@
 import s from './NavHeader.module.css';
 import { Col } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-const NavHeader = (props) => {
+import { useState } from 'react';
 
+const NavHeader = (props) => {
+    const [activeLink, setActiveLink] = useState(false)
 
     return (
         <nav className={s.nav}>
@@ -15,12 +17,17 @@ const NavHeader = (props) => {
                     </Col>
                     <Col xs={10} sm={6}>
                         <li className={s.item}>
-                            <NavLink to="/video">
-                                Обучающий материал в виде видео
-                            </NavLink>
-                            <NavLink to="/article">
-                                Обучающий материал в виде статей
-                            </NavLink>
+                            {
+                                activeLink
+                                    ?
+                                    <NavLink onClick={() => setActiveLink(false)} to="/video">
+                                        Обучающий материал в виде видео
+                                    </NavLink>
+                                    :
+                                    <NavLink onClick={() => setActiveLink(true)} to="/article">
+                                        Обучающий материал в виде статей
+                                    </NavLink>
+                            }
                         </li>
                     </Col>
                     <Col xs={12} sm={4}>
@@ -29,8 +36,8 @@ const NavHeader = (props) => {
                         </li>
                     </Col>
                 </ul>
-            </Col>
-        </nav>
+            </Col >
+        </nav >
     );
 }
 
