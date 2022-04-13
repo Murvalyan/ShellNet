@@ -1,4 +1,4 @@
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import s from './Article.module.css';
 import photo from '../../../assets/img/article/js.jpeg';
 

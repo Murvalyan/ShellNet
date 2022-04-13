@@ -6,6 +6,8 @@ import s from './TopHeader.module.css';
 import { Col } from 'react-bootstrap';
 
 const TopHeader = () => {
+    const isAuth = localStorage.getItem('token')
+
     return (
         <div className={s.topHeader}>
             <Col xs={12} sm={3}>
@@ -17,9 +19,16 @@ const TopHeader = () => {
             <Col xs={8} sm={2}>
                 <Registr />
             </Col>
-            <Col sx={4} sm={2}>
-                <UserLink />
-            </Col>
+            {
+                isAuth
+                    ?
+                    <Col sx={4} sm={2}>
+                        <UserLink />
+                    </Col> 
+                    :
+                    ''
+            }
+
         </div>
     );
 }

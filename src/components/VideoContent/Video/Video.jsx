@@ -3,12 +3,12 @@ import LogoUser from '../../../assets/img/icon/webdev.jpg';
 import { Col } from 'react-bootstrap';
 import v from '../../../assets/video/v.mp4'
 import { Link } from 'react-router-dom';
-const Video = () => {
-
+const Video = (props) => {
+   const id = Math.floor(Math.random() * (10000 - 0 + 1)) + 0;
     return (
-        <Col sm={6} md={4} lg={3}>
+        <Col sm={props.sm} md={props.md} lg={props.lg}>
             <div className={s.wrapperVideo}>
-                <Link to="/videoPage/">
+                <Link to={`/videoPage/${id}`}>
                     <video src={v} className={s.video}></video>
                 </Link>
                 <div className={s.wrapper}>

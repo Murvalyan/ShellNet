@@ -7,7 +7,7 @@ const VideoContent = () => {
     const listVideo = [];
 
     for (let k = 0; k < 12; k++) {
-        listVideo.push(<Video />)
+        listVideo.push(<Video sm={6} md={4} lg={3} />)
     }
 
 

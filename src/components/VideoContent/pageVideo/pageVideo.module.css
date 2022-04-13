@@ -1,24 +1,24 @@
 .wrapper {
-    padding: 20px 0;
+    background-color: whitesmoke;
 }
 .videoContent {
     padding: 10px;
-    border: 1px solid #cecece;
-    background-color:burlywood;
 }
+
 .video {
-    min-width: 100%;
-
-
+    max-width: 100%;
 }
 
 .title {
-    max-width: 80%;
     font-size: 36px;
     margin-bottom: 5px;
 }
 
 .description {
-    max-width: 80%;
     font-size: 18px;
+}
+
+.aside {
+    padding: 10px;
+    max-width: 100%;
 }
