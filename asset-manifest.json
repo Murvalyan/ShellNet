@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/ShellNet/static/css/main.9700393c.css",
-    "main.js": "/ShellNet/static/js/main.f58f66ba.js",
+    "main.css": "/ShellNet/static/css/main.40eb386c.css",
+    "main.js": "/ShellNet/static/js/main.28484454.js",
     "static/js/787.170b745c.chunk.js": "/ShellNet/static/js/787.170b745c.chunk.js",
     "static/media/v.mp4": "/ShellNet/static/media/v.3cf1505e7e87024a4ce1.mp4",
+    "static/media/backgroundProfile.jpg": "/ShellNet/static/media/backgroundProfile.1615f57e2896d025c0ec.jpg",
     "static/media/js.jpeg": "/ShellNet/static/media/js.ae05cd98b3ab9e3ff6e9.jpeg",
     "static/media/search.png": "/ShellNet/static/media/search.c6544d3156a8bde3d076.png",
     "index.html": "/ShellNet/index.html",
-    "main.9700393c.css.map": "/ShellNet/static/css/main.9700393c.css.map",
-    "main.f58f66ba.js.map": "/ShellNet/static/js/main.f58f66ba.js.map",
+    "main.40eb386c.css.map": "/ShellNet/static/css/main.40eb386c.css.map",
+    "main.28484454.js.map": "/ShellNet/static/js/main.28484454.js.map",
     "787.170b745c.chunk.js.map": "/ShellNet/static/js/787.170b745c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9700393c.css",
-    "static/js/main.f58f66ba.js"
+    "static/css/main.40eb386c.css",
+    "static/js/main.28484454.js"
   ]
 }
